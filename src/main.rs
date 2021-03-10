@@ -64,7 +64,6 @@ fn vec_sigmoid(v: Vec<f32>) -> Vec<f32> {
     result
 }
 
-
 fn feedforward(biases: Vec<Vec<f32>>, weights: Vec<Vec<Vec<f32>>>, a: Vec<f32>) -> Vec<f32> {
     let mut result = a;
 
